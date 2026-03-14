@@ -214,6 +214,7 @@ export default function Testimonials() {
             {visibleTestimonials.map((testimonial, i) => {
               const theme = getThemeClasses(testimonial.theme);
               const isCenterCard = numVisibleTestimonials > 1 && i === Math.floor(numVisibleTestimonials / 2);
+              const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(testimonial.name)}&size=96&background=1e293b&color=94f7a6`;
               const cardMotionProps = !shouldReduceMotion 
                 ? { whileHover: { y: -8, scale: 1.02, boxShadow: "0px 15px 30px -10px rgba(var(--card-shadow-rgb,0,0,0),0.2)" }, transition:{ type:"spring", stiffness:200, damping:15 } } 
                 : {};
@@ -262,7 +263,7 @@ export default function Testimonials() {
                   &quot;{testimonial.text}&quot;
                 </blockquote>
                 <figcaption className="flex items-center mt-auto pt-4 border-t border-white/10">
-                  <Image src={testimonial.imageSrc} alt={`Foto de ${testimonial.name}`} width={48} height={48} className="w-12 h-12 rounded-full mr-4 object-cover border-2 border-white/20"/>
+                  <Image src={avatarUrl} alt={`Foto de ${testimonial.name}`} width={48} height={48} className="w-12 h-12 rounded-full mr-4 object-cover border-2 border-white/20" unoptimized />
                   <div>
                     <p className="font-semibold text-white">{testimonial.name}</p>
                     <p className="text-xs text-muted-foreground">{testimonial.position}, {testimonial.company}</p>

@@ -1,8 +1,8 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
-import {  Zap, ShieldCheck, BarChart3, Clock } from "lucide-react"; // Agregado Clock
-import { fadeIn } from "@/lib/animations"; // Asumo que pulseAnimation es { scale: [1, 1.05, 1] } o similar
+import { Zap, ShieldCheck, BarChart3, Clock } from "lucide-react";
+import { fadeIn } from "@/lib/animations";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
@@ -112,13 +112,13 @@ export default function Hero() {
             <motion.button
               whileHover={{ scale: shouldReduceMotion ? 1 : 1.05, transition: { duration: 0.2 } }}
               whileTap={{ scale: shouldReduceMotion ? 1 : 0.95 }}
-              className="px-8 py-3 rounded-lg border border-white/20 bg-dark-card/60 backdrop-blur-sm hover:border-primary/40 hover:bg-dark-card/80 transition-all duration-300 flex items-center justify-center gap-2 font-medium" // border-white/20, bg-dark-card/60, font-medium
+              className="px-8 py-3 rounded-lg border border-white/20 bg-dark-card/60 backdrop-blur-sm hover:border-primary/40 hover:bg-dark-card/80 transition-all duration-300 flex items-center justify-center gap-2 font-medium"
               onClick={() => window.location.href = "/calendar"}
             >
-              Solicitar Demo Personalizada <Zap size={16} className="text-neon-purple" aria-hidden="true" /> {/* Texto más específico */}
+              Solicitar Demo Personalizada <Zap size={16} className="text-neon-purple" aria-hidden="true" />
             </motion.button>
           </motion.div>
-          
+
           {/* Badges de confianza (mejorados con iconos) */}
           <motion.div 
             initial="hidden"
