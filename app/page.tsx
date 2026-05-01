@@ -2,6 +2,7 @@ import { Nav } from '@/components/nav';
 import { StickyCta } from '@/components/sticky-cta';
 import { BackToTop } from '@/components/back-to-top';
 import { ChatWidget } from '@/components/chat-widget';
+import { ScrollManager } from '@/components/scroll-manager';
 import { Hero } from '@/components/hero';
 import { Problem } from '@/components/problem';
 import { Solution } from '@/components/solution';
@@ -24,6 +25,7 @@ export default function LandingPage() {
         <div className="la-bg-streaks" />
         <div className="la-bg-noise" />
       </div>
+      <ScrollManager />
       <Nav />
       <StickyCta />
       <BackToTop />

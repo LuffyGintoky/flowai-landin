@@ -26,8 +26,22 @@
 }
 
 * { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; background: var(--navy-deep); color: var(--ink); }
+html {
+  margin: 0; padding: 0;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--navy-edge) var(--navy-deep);
+}
+html::-webkit-scrollbar { width: 6px; }
+html::-webkit-scrollbar-track { background: var(--navy-deep); }
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--gold-soft), var(--navy-edge));
+  border-radius: 999px;
+}
+html::-webkit-scrollbar-thumb:hover { background: var(--gold-soft); }
 body {
+  margin: 0; padding: 0;
+  background: var(--navy-deep); color: var(--ink);
   font: 15px/1.55 var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
   font-feature-settings: 'cv11', 'ss01';
   letter-spacing: -0.005em;
