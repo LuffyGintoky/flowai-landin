@@ -1282,7 +1282,7 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ════════ Chat Widget ════════ */
 .la-chatw-btn {
-  position: fixed; bottom: 80px; right: 16px;
+  position: fixed; bottom: 16px; right: 16px;
   z-index: 41;
   display: inline-flex; align-items: center; gap: 9px;
   height: 48px; padding: 0 20px 0 16px;
@@ -1301,7 +1301,7 @@ button { font-family: inherit; cursor: pointer; }
 .la-chatw-btn.is-open span { display: none; }
 
 .la-chatw-modal {
-  position: fixed; bottom: 140px; right: 16px;
+  position: fixed; bottom: 76px; right: 16px;
   z-index: 42;
   width: 360px;
   display: flex; flex-direction: column;
@@ -1438,7 +1438,7 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 480px) {
   .la-chatw-modal {
     right: 8px; left: 8px; width: auto;
-    bottom: 134px;
+    bottom: 70px;
   }
-  .la-chatw-btn { right: 8px; bottom: 74px; }
+  .la-chatw-btn { right: 8px; bottom: 12px; }
 }
