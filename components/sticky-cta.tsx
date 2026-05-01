@@ -15,7 +15,6 @@ export function StickyCta() {
 
   return (
     <div className={`la-sticky-cta${visible ? ' is-visible' : ''}`} aria-hidden={!visible}>
-      <span className="la-sticky-cta-text">¿Listo para empezar?</span>
       <a href="#waitlist" className="la-sticky-cta-btn">
         Reservar mi cupo <IconArrowRight style={{ width: 12, height: 12 }} />
       </a>

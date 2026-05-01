@@ -1220,10 +1220,6 @@ button { font-family: inherit; cursor: pointer; }
   transition: transform .35s cubic-bezier(.4,0,.2,1);
 }
 .la-sticky-cta.is-visible { transform: translateY(0); }
-.la-sticky-cta-text {
-  font-size: 13px; color: var(--ink-soft);
-  display: none;
-}
 .la-sticky-cta-btn {
   display: inline-flex; align-items: center; gap: 8px;
   height: 36px; padding: 0 18px;
@@ -1286,7 +1282,6 @@ button { font-family: inherit; cursor: pointer; }
   .la-nav-links { display: none; }
   .la-nav-actions { display: none; }
   .la-nav-burger { display: flex; }
-  .la-sticky-cta-text { display: block; }
 
   /* Hero */
   .la-hero { padding-top: 80px; padding-bottom: 60px; }
@@ -1309,9 +1304,10 @@ button { font-family: inherit; cursor: pointer; }
 
   /* Waitlist */
   .la-cta { padding: 40px 24px; }
+  .la-cta > * { min-width: 0; width: 100%; }
   .la-cta-l h2 { font-size: 32px; }
   .la-cta-counters { gap: 20px; }
-  .la-form { padding: 24px; }
+  .la-form { padding: 24px; width: 100%; box-sizing: border-box; }
   .la-form-row { grid-template-columns: 1fr; }
 
   /* Footer */
@@ -1350,10 +1346,12 @@ button { font-family: inherit; cursor: pointer; }
   .la-demo-stat:last-child { grid-column: span 2; }
 
   /* Waitlist */
+  .la-cta { padding: 28px 16px; gap: 32px; }
   .la-cta-l h2 { font-size: 26px; }
   .la-cta-counters { flex-wrap: wrap; gap: 12px; }
   .la-cta-counter { flex: 1 1 calc(50% - 6px); min-width: 0; }
   .la-cta-counter b { font-size: 24px; }
+  .la-form { padding: 20px; }
 
   /* Pricing */
   .la-price-num b { font-size: 38px; }
