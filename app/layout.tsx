@@ -1,45 +1,23 @@
-import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
-import "./globals.css";
-import Header from "../components/Header";
-import ChatWidget from "../components/ChatWidget";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
 
-const outfit = Outfit({
-  subsets: ["latin"],
-  variable: "--font-outfit",
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-inter',
 });
 
 export const metadata: Metadata = {
-  title: "Flow AI | Automatización conversacional con IA",
-  description: "Plataforma de automatización conversacional multicanal potenciada por inteligencia artificial. Conecta WhatsApp, Gmail y Calendar para automatizar tu negocio.",
-  keywords: ["automatización", "IA", "WhatsApp", "conversacional", "multicanal", "agendamiento", "inteligencia artificial"],
-  icons: {
-    icon: "/design/logosl.png",
-    apple: "/design/logosl.png",
-  },
-  openGraph: {
-    images: ["/design/logosl.png"],
-  },
-  twitter: {
-    card: "summary_large_image",
-    images: ["/design/logosl.png"],
-  },
+  title: 'FlowAI · Tu equipo de ventas en WhatsApp, operado por IA',
+  description:
+    'Responde con tu tono, califica intención en tiempo real y deja que tu equipo apruebe lo que importa. El CRM nativo de WhatsApp para equipos LATAM.',
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className="dark">
-      <body
-        className={`${outfit.variable} font-outfit antialiased bg-dark-bg text-white`}
-      >
-        <Header />
-        {children}
-        <ChatWidget />
-      </body>
+    <html lang="es">
+      <body className={inter.variable}>{children}</body>
     </html>
   );
 }

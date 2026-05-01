@@ -1,27 +1,40 @@
-import Hero from "./sections/Hero";
-import Benefits from "./sections/Benefits";
-// import WorkflowDiagram from "./sections/WorkflowDiagram";
-import UseCases from "./sections/UseCases";
-import Integrations from "./sections/Integrations";
-// import Pricing from "./sections/Pricing";
-import Testimonials from "./sections/Testimonials";
-import CTA from "./sections/CTA";
+import { Nav } from '@/components/nav';
+import { StickyCta } from '@/components/sticky-cta';
+import { BackToTop } from '@/components/back-to-top';
+import { Hero } from '@/components/hero';
+import { Problem } from '@/components/problem';
+import { Solution } from '@/components/solution';
+import { Features } from '@/components/features';
+import { DemoStrip } from '@/components/demo-strip';
+import { Pricing } from '@/components/pricing';
+import { Founders } from '@/components/founders';
+import { Faq } from '@/components/faq';
+import { Waitlist } from '@/components/waitlist';
+import { Footer } from '@/components/footer';
 
-import Footer from "./sections/Footer";
-
-export default function Home() {
+export default function LandingPage() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <main>
-        <Hero />
-        <Benefits />
-        {/* <WorkflowDiagram /> */}
-        <UseCases />
-        <Integrations />
-        {/* <Pricing /> */}
-        <Testimonials />
-        <CTA />
-      </main>
+    <div className="la-app" data-screen-label="Landing · FlowAI">
+      <div className="la-bg" aria-hidden="true">
+        <div className="la-bg-grid" />
+        <div className="la-bg-blob la-bg-blob-1" />
+        <div className="la-bg-blob la-bg-blob-2" />
+        <div className="la-bg-blob la-bg-blob-3" />
+        <div className="la-bg-streaks" />
+        <div className="la-bg-noise" />
+      </div>
+      <Nav />
+      <StickyCta />
+      <BackToTop />
+      <Hero />
+      <Problem />
+      <Solution />
+      <Features />
+      <DemoStrip />
+      <Pricing />
+      <Founders />
+      <Faq />
+      <Waitlist />
       <Footer />
     </div>
   );

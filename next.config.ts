@@ -1,11 +1,5 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
-const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [
-      { protocol: "https", hostname: "ui-avatars.com", pathname: "/api/**" },
-    ],
-  },
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
