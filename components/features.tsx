@@ -51,13 +51,11 @@ export function Features() {
       <div className="la-section-head center" style={{ textAlign: 'center' }}>
         <div className="la-section-eyebrow" style={{ justifyContent: 'center' }}>Producto</div>
         <h2 className="la-display-md">
-          Todo lo que tu equipo necesita<br />
-          para <span className="k">vender en WhatsApp</span>.
+          Todo lo que tu equipo necesita para <span className="k">vender en WhatsApp</span>.
         </h2>
         <hr className="la-rule center" />
         <p className="la-sub" style={{ margin: '0 auto', maxWidth: 600 }}>
-          Cero fricción. Cada pantalla resuelve<br />
-          una decisión real del día a día.
+          Cero fricción. Cada pantalla resuelve una decisión real del día a día.
         </p>
         <p className="la-aside" style={{ marginTop: 14 }}>
           (Diseñado con equipos comerciales, no con consultores.)

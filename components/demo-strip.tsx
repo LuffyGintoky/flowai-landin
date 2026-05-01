@@ -54,9 +54,7 @@ export function DemoStrip() {
         <div className="la-demo-l">
           <div className="la-section-eyebrow">Resultados reales</div>
           <h3>
-            De <span style={{ color: 'var(--gold)' }}>4 horas/día</span><br />
-            en WhatsApp,<br />
-            a <em>40 minutos</em>
+            De <span style={{ color: 'var(--gold)' }}>4 horas/día</span> en WhatsApp, a <em>40 minutos</em>
           </h3>
           <hr className="la-rule" />
           <p className="la-body" style={{ marginTop: 0 }}>

@@ -31,8 +31,7 @@ export function Problem() {
       <div className="la-section-head">
         <div className="la-section-eyebrow">El dolor que ya conoces</div>
         <h2 className="la-display-md">
-          Tu <span className="k">CRM</span> no fue<br />
-          construido para <span className="k">WhatsApp</span>.
+          Tu <span className="k">CRM</span> no fue construido para <span className="k">WhatsApp</span>.
         </h2>
         <hr className="la-rule" />
         <p className="la-sub" style={{ maxWidth: 620 }}>

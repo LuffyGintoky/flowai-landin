@@ -39,8 +39,7 @@ export function Pricing() {
       <div className="la-section-head center" style={{ textAlign: 'center' }}>
         <div className="la-section-eyebrow" style={{ justifyContent: 'center' }}>Precios honestos</div>
         <h2 className="la-display-md">
-          Crecer no debería<br />
-          <span className="k">costarte el doble</span>.
+          Crecer no debería <span className="k">costarte el doble</span>.
         </h2>
         <hr className="la-rule center" />
         <p className="la-sub" style={{ margin: '0 auto', maxWidth: 540 }}>

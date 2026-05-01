@@ -31,8 +31,7 @@ export function Founders() {
       <div className="la-section-head center" style={{ textAlign: 'center' }}>
         <div className="la-section-eyebrow" style={{ justifyContent: 'center' }}>El equipo</div>
         <h2 className="la-display-md">
-          Construido por gente que<br />
-          <span className="k">vivió el problema</span>.
+          Construido por gente que <span className="k">vivió el problema</span>.
         </h2>
         <hr className="la-rule center" />
         <p className="la-sub" style={{ margin: '0 auto', maxWidth: 580 }}>

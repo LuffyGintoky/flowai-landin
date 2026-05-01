@@ -14,13 +14,11 @@ export function Solution() {
         <div>
           <div className="la-section-eyebrow">La solución</div>
           <h2 className="la-display-md">
-            La <span className="k">IA</span> escribe.<br />
-            Tu <span className="k">equipo</span> decide.
+            La <span className="k">IA</span> escribe. Tu <span className="k">equipo</span> decide.
           </h2>
           <hr className="la-rule" />
           <p className="la-sub" style={{ maxWidth: 480 }}>
-            FlowAI no reemplaza a tu equipo<br />
-            de ventas. Los multiplica.
+            FlowAI no reemplaza a tu equipo de ventas. Los multiplica.
           </p>
           <p className="la-aside" style={{ marginTop: 14, maxWidth: 480 }}>
             (Cada mensaje recibe una respuesta sugerida, calibrada con tu catálogo, política y tono.)

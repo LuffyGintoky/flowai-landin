@@ -41,8 +41,7 @@ export function Faq() {
       <div className="la-section-head center" style={{ textAlign: 'center' }}>
         <div className="la-section-eyebrow" style={{ justifyContent: 'center' }}>Preguntas frecuentes</div>
         <h2 className="la-display-md">
-          Todo lo que quieres saber<br />
-          antes de <span className="k">empezar</span>.
+          Todo lo que quieres saber antes de <span className="k">empezar</span>.
         </h2>
         <hr className="la-rule center" />
       </div>

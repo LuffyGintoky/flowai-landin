@@ -12,17 +12,15 @@ export function Hero() {
         </div>
 
         <h1 className="la-display">
-          Tu <span className="k">equipo de ventas</span><br />
-          en <span className="k">WhatsApp</span>,<br />
+          Tu <span className="k">equipo de ventas</span>{' '}
+          en <span className="k">WhatsApp</span>,{' '}
           operado por <span className="k">IA</span>
         </h1>
 
         <hr className="la-rule" />
 
         <p className="la-sub">
-          Responde con tu tono, califica intención<br />
-          en tiempo real y deja que tu equipo<br />
-          apruebe lo que importa.
+          Responde con tu tono, califica intención en tiempo real y deja que tu equipo apruebe lo que importa.
         </p>
 
         <p className="la-aside" style={{ marginTop: 18, maxWidth: 460 }}>
