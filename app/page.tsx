@@ -1,6 +1,7 @@
 import { Nav } from '@/components/nav';
 import { StickyCta } from '@/components/sticky-cta';
 import { BackToTop } from '@/components/back-to-top';
+import { ChatWidget } from '@/components/chat-widget';
 import { Hero } from '@/components/hero';
 import { Problem } from '@/components/problem';
 import { Solution } from '@/components/solution';
@@ -26,6 +27,7 @@ export default function LandingPage() {
       <Nav />
       <StickyCta />
       <BackToTop />
+      <ChatWidget />
       <Hero />
       <Problem />
       <Solution />
