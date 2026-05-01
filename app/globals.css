@@ -1282,6 +1282,7 @@ button { font-family: inherit; cursor: pointer; }
   .la-nav-links { display: none; }
   .la-nav-actions { display: none; }
   .la-nav-burger { display: flex; }
+  .la-sticky-cta { justify-content: flex-start; padding: 12px 20px; }
 
   /* Hero */
   .la-hero { padding-top: 80px; padding-bottom: 60px; }
