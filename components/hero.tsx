@@ -6,25 +6,27 @@ export function Hero() {
       <div className="la-hero-l">
         <div className="la-eyebrow">
           <span className="dot" />
-          Beta privada · LATAM 2026
+          Piloto privado · Norte de Chile
           <span className="sep" />
           Cupos limitados
         </div>
 
         <h1 className="la-display">
-          Tu <span className="k">equipo de ventas</span>{' '}
-          en <span className="k">WhatsApp</span>,{' '}
-          operado por <span className="k">IA</span>
+          Tus cotizaciones<br />
+          <span className="k">respondidas a tiempo</span>,<br />
+          aunque estés en <span className="k">faena</span>.
         </h1>
 
         <hr className="la-rule" />
 
         <p className="la-sub">
-          Responde con tu tono, califica intención en tiempo real y deja que tu equipo apruebe lo que importa.
+          El agente cotiza según tus tarifas,<br />
+          responde con tu tono y te avisa<br />
+          cuando necesita que apruebas.
         </p>
 
         <p className="la-aside" style={{ marginTop: 18, maxWidth: 460 }}>
-          (Co-pilot o autopilot — tú decides hasta dónde llega.)
+          (Co-pilot o autopilot — tú decides cuándo intervenir.)
         </p>
 
         <div className="la-hero-ctas" style={{ marginTop: 36 }}>
@@ -51,18 +53,18 @@ export function Hero() {
         <div className="la-hero-streak" />
 
         <div className="la-float-card la-float-stat">
-          <div className="la-float-stat-l">Aprobadas hoy</div>
+          <div className="la-float-stat-l">Cotizaciones enviadas hoy</div>
           <div className="la-float-stat-v">
-            184<span style={{ fontSize: 14, color: 'var(--ink-mute)', fontWeight: 500 }}> / 200</span>
+            5<span style={{ fontSize: 14, color: 'var(--ink-mute)', fontWeight: 500 }}> / 5</span>
           </div>
-          <div className="la-float-stat-d">+92% sin intervención humana</div>
+          <div className="la-float-stat-d">El dueño estaba en faena</div>
         </div>
 
         <div className="la-chat">
           <div className="la-chat-hd">
-            <div className="la-chat-avatar">LM</div>
+            <div className="la-chat-avatar">PS</div>
             <div className="la-chat-info">
-              <div className="la-chat-name">Lucía Marín · 🇲🇽</div>
+              <div className="la-chat-name">Pedro Sandoval · 🇨🇱</div>
               <div className="la-chat-meta">
                 <span className="wa" />
                 WhatsApp Business · En línea
@@ -70,10 +72,10 @@ export function Hero() {
             </div>
           </div>
           <div className="la-chat-thread">
-            <div className="la-msg la-msg-them">¿Y la garantía cuánto dura?</div>
+            <div className="la-msg la-msg-them">¿Tienen disponibilidad para catering de 80 personas desde el lunes en faena norte?</div>
             <div className="la-msg la-msg-ai">
               <span className="la-msg-ai-tag">✦ Sugerencia IA</span>
-              24 meses contra defectos de fábrica. ¿Procedemos con el envío para mañana?
+              Confirmamos disponibilidad para 80 personas desde el lunes. Le preparamos la cotización con traslado incluido. ¿Le enviamos la propuesta hoy?
             </div>
           </div>
           <div className="la-chat-foot">
@@ -92,9 +94,9 @@ export function Hero() {
         <div className="la-float-card la-float-intent">
           <div className="row1">
             <IconSparkle className="sparkle" />
-            Intención detectada
+            Solicitud detectada
           </div>
-          <div className="row2">Compra · alta urgencia</div>
+          <div className="row2">Cotización urgente · faena</div>
           <div className="row3">
             <div className="barwrap"><i style={{ width: '94%' }} /></div>
             <span className="pct">94%</span>

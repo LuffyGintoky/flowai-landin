@@ -1,27 +1,19 @@
 const FOUNDERS = [
   {
-    initials: 'AM',
-    name: 'Alejandro Mora',
-    role: 'CEO & Co-founder',
-    bio: '10 años construyendo equipos de ventas en LATAM. Ex-director comercial en dos scale-ups con salida. Obsesionado con por qué los equipos pierden ventas por no responder a tiempo.',
-    linkedin: '#',
+    initials: 'DB',
+    name: 'Dani Bascuñán',
+    role: 'Fundador · Shinsekai',
+    bio: 'Fundador de Shinsekai, empresa de ingeniería y desarrollo de software en Antofagasta. Años trabajando con empresas del norte de Chile en automatización de procesos industriales y herramientas digitales. Construyó FlowAI al ver de primera mano cómo los proveedores mineros pierden contratos valiosos por no contar con las herramientas correctas.',
+    linkedin: 'https://www.shinsekai.cl/',
     color: '#1a3a5c',
   },
   {
-    initials: 'VS',
-    name: 'Valentina Soto',
-    role: 'CTO & Co-founder',
-    bio: 'Ingeniera de sistemas con 8 años en ML aplicado a NLP. Construyó sistemas de detección de intención para e-commerce con millones de transacciones mensuales.',
-    linkedin: '#',
+    initials: 'EI',
+    name: 'Equipo de ingeniería',
+    role: 'Antofagasta · Chile',
+    bio: 'Ingenieros con experiencia en automatización de procesos, sistemas de mensajería y desarrollo de software para industria. Construimos herramientas para el norte de Chile — no plantillas genéricas adaptadas.',
+    linkedin: 'https://www.shinsekai.cl/',
     color: '#2a2a4a',
-  },
-  {
-    initials: 'RQ',
-    name: 'Rodrigo Quiroga',
-    role: 'CPO & Co-founder',
-    bio: 'Ex-product manager en HubSpot LATAM. Diseñó flujos de CRM para más de 200 equipos de ventas en México, Colombia y Chile. Entiende el caos del WhatsApp mejor que nadie.',
-    linkedin: '#',
-    color: '#1a3330',
   },
 ];
 
@@ -31,12 +23,12 @@ export function Founders() {
       <div className="la-section-head center" style={{ textAlign: 'center' }}>
         <div className="la-section-eyebrow" style={{ justifyContent: 'center' }}>El equipo</div>
         <h2 className="la-display-md">
-          Construido por gente que <span className="k">vivió el problema</span>.
+          Construido por gente que<br />
+          <span className="k">conoce el norte</span>.
         </h2>
         <hr className="la-rule center" />
         <p className="la-sub" style={{ margin: '0 auto', maxWidth: 580 }}>
-          No somos una consultora de IA. Somos un equipo que perdió ventas por WhatsApp
-          y decidió resolver el problema de raíz.
+          No somos una consultora de IA. Somos ingenieros de Antofagasta que entienden cómo opera la industria minera y sus proveedores.
         </p>
       </div>
       <div className="la-founders-grid">
@@ -49,7 +41,7 @@ export function Founders() {
             <div className="la-founder-role">{f.role}</div>
             <p className="la-founder-bio">{f.bio}</p>
             <a href={f.linkedin} className="la-founder-linkedin" target="_blank" rel="noopener noreferrer">
-              LinkedIn →
+              Shinsekai →
             </a>
           </div>
         ))}

@@ -6,14 +6,14 @@ function DemoChart() {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 18 }}>
         <div>
           <div style={{ fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '.14em', color: 'var(--ink-mute)' }}>
-            Tasa de aprobación IA
+            Solicitudes gestionadas
           </div>
           <div style={{ fontSize: 30, fontWeight: 700, color: 'white', marginTop: 6, letterSpacing: '-0.02em' }}>
-            96<span style={{ color: 'var(--gold)', fontSize: 20 }}>%</span>
+            ↑
           </div>
         </div>
         <div style={{ fontSize: 11, color: 'var(--green)', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.08em' }}>
-          ↑ +14 pts
+          En tiempo real
         </div>
       </div>
       <svg viewBox="0 0 320 100" style={{ width: '100%', height: 100 }}>
@@ -52,21 +52,23 @@ export function DemoStrip() {
     <section className="la-section la-wrap" style={{ paddingTop: 0 }}>
       <div className="la-demo">
         <div className="la-demo-l">
-          <div className="la-section-eyebrow">Resultados reales</div>
+          <div className="la-section-eyebrow">Resultado</div>
           <h3>
-            De <span style={{ color: 'var(--gold)' }}>4 horas/día</span> en WhatsApp, a <em>40 minutos</em>
+            Cada cotización<br />
+            respondida <span style={{ color: 'var(--gold)' }}>a tiempo</span>.<br />
+            Cada contrato <em>defendido</em>.
           </h3>
           <hr className="la-rule" />
           <p className="la-body" style={{ marginTop: 0 }}>
-            Beta privada con 12 marcas en México y Colombia.
+            En piloto con proveedores de servicios en el norte de Chile.
           </p>
           <p className="la-aside" style={{ marginTop: 8 }}>
-            (Promedio tras 60 días operando con FlowAI en producción.)
+            (Cada proveedor que opera con FlowAI define sus propios tiempos de respuesta y criterios de urgencia.)
           </p>
           <div className="la-demo-stats">
-            <div className="la-demo-stat"><b>3.2<em>×</em></b><span>Conversión</span></div>
-            <div className="la-demo-stat"><b>92<em>%</em></b><span>Auto-resueltos</span></div>
-            <div className="la-demo-stat"><b>1m 42s</b><span>SLA</span></div>
+            <div className="la-demo-stat"><b>Respuesta</b><span>en minutos, no horas</span></div>
+            <div className="la-demo-stat"><b>Prioridad</b><span>automática por urgencia</span></div>
+            <div className="la-demo-stat"><b>Control</b><span>total antes de enviar</span></div>
           </div>
         </div>
         <div className="la-demo-r">

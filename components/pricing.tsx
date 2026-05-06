@@ -5,8 +5,8 @@ const TIERS = [
     name: 'Starter',
     price: 'Gratis',
     sub: 'durante la beta',
-    desc: 'Para equipos chicos validando WhatsApp como canal principal.',
-    feats: ['1 número WhatsApp', 'Hasta 500 chats/mes', '2 agentes humanos', 'Co-pilot con aprobación', 'Soporte por email'],
+    desc: 'Para proveedores validando WhatsApp como canal principal de cotizaciones.',
+    feats: ['1 número WhatsApp', 'Hasta 500 solicitudes/mes', '2 usuarios', 'Co-pilot con aprobación', 'Soporte por email'],
     cta: 'Empezar gratis',
     featured: false,
     badge: null,
@@ -14,9 +14,9 @@ const TIERS = [
   {
     name: 'Growth',
     price: '$249',
-    sub: '/ mes por agente',
-    desc: 'Para equipos que ya validaron WhatsApp como canal y quieren escalar sin fricciones.',
-    feats: ['Hasta 5 números WhatsApp', 'Chats ilimitados', 'Agentes humanos ilimitados', 'Co-pilot + Autopilot', 'Pipeline + funnel auto', 'Integraciones premium', 'Soporte prioritario'],
+    sub: '/ mes por empresa',
+    desc: 'Para proveedores que quieren responder cada solicitud minera sin depender de estar siempre disponibles.',
+    feats: ['Hasta 5 números WhatsApp', 'Solicitudes ilimitadas', 'Usuarios ilimitados', 'Co-pilot + Autopilot', 'Cotizaciones activas con prioridad', 'Integraciones premium', 'Soporte prioritario'],
     cta: 'Probar 30 días gratis',
     featured: true,
     badge: '★ Más elegido',
@@ -25,8 +25,8 @@ const TIERS = [
     name: 'Enterprise',
     price: 'Custom',
     sub: 'según volumen',
-    desc: 'Operaciones con SLA, compliance estricto y necesidades de white-label.',
-    feats: ['Números y agentes ilimitados', 'Modelo IA dedicado', 'Datos en tu región', 'SOC 2 + DPA + custom MSA', 'White-label disponible', 'Onboarding dedicado', 'CSM asignado'],
+    desc: 'Para empresas con múltiples faenas, contratos marco o necesidades de integración con ERP.',
+    feats: ['Números y usuarios ilimitados', 'Modelo IA dedicado', 'Datos en Chile', 'SOC 2 + DPA + custom MSA', 'White-label disponible', 'Onboarding dedicado', 'CSM asignado'],
     cta: 'Hablar con ventas',
     featured: false,
     badge: null,
@@ -39,14 +39,15 @@ export function Pricing() {
       <div className="la-section-head center" style={{ textAlign: 'center' }}>
         <div className="la-section-eyebrow" style={{ justifyContent: 'center' }}>Precios honestos</div>
         <h2 className="la-display-md">
-          Crecer no debería <span className="k">costarte el doble</span>.
+          Crecer no debería<br />
+          <span className="k">costarte el doble</span>.
         </h2>
         <hr className="la-rule center" />
         <p className="la-sub" style={{ margin: '0 auto', maxWidth: 540 }}>
           Acceso anticipado gratuito durante la beta.
         </p>
         <p className="la-aside" style={{ marginTop: 14 }}>
-          (Pricing congelado por 12 meses para quienes entran ahora — sin penalizar el éxito.)
+          (Pricing congelado por 12 meses para quienes entran ahora — sin penalizar el crecimiento.)
         </p>
       </div>
       <div className="la-price-grid">
@@ -79,7 +80,7 @@ export function Pricing() {
       <div className="la-price-foot">
         <span>¿Necesitas algo distinto? <a href="mailto:contacto@flowai.cl">Hablemos</a>.</span>
         <span>·</span>
-        <span>Todos los planes incluyen migración asistida desde tu CRM actual.</span>
+        <span>Todos los planes incluyen migración asistida desde tu herramienta actual.</span>
       </div>
     </section>
   );

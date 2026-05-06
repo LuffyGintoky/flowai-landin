@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'FlowAI · Tu equipo de ventas en WhatsApp, operado por IA',
+  title: 'FlowAI · El agente que gestiona tus cotizaciones mineras en WhatsApp',
   description:
-    'Responde con tu tono, califica intención en tiempo real y deja que tu equipo apruebe lo que importa. El CRM nativo de WhatsApp para equipos LATAM.',
+    'Respondé cada solicitud de faena a tiempo, con la información exacta. FlowAI gestiona tus cotizaciones por WhatsApp mientras tú operás.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

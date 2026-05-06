@@ -11,7 +11,7 @@ export function Footer() {
               <Image src="/logos-flowai/2.png" alt="FlowAI" width={40} height={40} style={{ objectFit: 'contain' }} />
               <div className="la-brand-name">Flow<i>AI</i></div>
             </div>
-            <p>El CRM nativo de WhatsApp que opera con IA. Hecho en LATAM, para equipos que viven en chats.</p>
+            <p>El agente que cuida tus contratos mineros. Construido en Antofagasta, para proveedores del norte de Chile.</p>
             <div className="la-footer-social">
               <a href="#" title="Twitter / X"><TwitterX style={{ width: 14, height: 14 }} /></a>
               <a href="#" title="LinkedIn"><Linkedin style={{ width: 14, height: 14 }} /></a>

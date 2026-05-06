@@ -1,27 +1,27 @@
 const PAINS = [
   {
     num: 'Problema 01',
-    title: 'WhatsApp se llena, el equipo se quema',
-    body: 'El 70% de los leads llega por WhatsApp y la mayoría no se contesta en menos de una hora. Cada minuto es una venta que se enfría.',
-    quote: 'Teníamos 400 chats abiertos. Mi equipo respondía hasta las 11 pm y aún así perdíamos clientes.',
-    author: 'Carlos V.',
-    role: 'Fundador · Muebles Bruma, Medellín',
+    title: 'La minera no espera',
+    body: 'Una solicitud de cotización llega por WhatsApp. Si no respondes en 30 minutos, el encargado de abastecimiento llama a otro proveedor. El contrato se va sin que te enteres.',
+    quote: 'Me llegó un WhatsApp a las 7 de la mañana un sábado. Cuando lo vi el lunes ya habían adjudicado a la competencia.',
+    author: 'Proveedor de servicios',
+    role: 'Catering industrial · Norte de Chile',
   },
   {
     num: 'Problema 02',
-    title: 'Bots genéricos que apagan la marca',
-    body: 'Los chatbots clásicos hablan como FAQ. Tus clientes lo notan. La conversión cae, la confianza también.',
-    quote: 'Probamos tres bots. Todos sonaban igual. Ninguno cerraba la venta.',
-    author: 'Mariana R.',
-    role: 'Directora Comercial · Tienda Nómada, CDMX',
+    title: 'Una cotización mal respondida no tiene segunda vuelta',
+    body: 'Si mandas precios equivocados, condiciones que no aplican o un tono que no transmite seriedad técnica, la minera no vuelve a cotizar contigo. La relación se daña en segundos.',
+    quote: 'Le enviamos una cotización con los precios de la temporada anterior. Nos quedamos fuera de la licitación y no nos volvieron a llamar.',
+    author: 'Gerente comercial',
+    role: 'Empresa de limpieza industrial · Calama',
   },
   {
     num: 'Problema 03',
-    title: 'Sin visibilidad de qué calienta y qué enfría',
-    body: 'Sin clasificar intención ni medir el funnel en WhatsApp, vuelas a ciegas. ¿Qué leads cerrar primero? Imposible saberlo.',
-    quote: 'No teníamos forma de saber qué cliente estaba a punto de comprar y cuál solo curioseaba.',
-    author: 'Diego A.',
-    role: 'CEO · Agencia Raíz, Santiago',
+    title: 'No sabes cuál urgencia atender primero',
+    body: 'Con varias solicitudes abiertas al mismo tiempo, es imposible saber cuál faena necesita respuesta ahora y cuál puede esperar. Priorizas mal y pierdes el contrato que importaba.',
+    quote: 'Estaba apagando tres incendios a la vez. Le respondí primero al cliente más insistente, no al más valioso. Así perdimos el contrato que más nos convenía.',
+    author: 'Dueño de empresa',
+    role: 'Transporte de personal · Antofagasta',
   },
 ];
 
@@ -31,14 +31,16 @@ export function Problem() {
       <div className="la-section-head">
         <div className="la-section-eyebrow">El dolor que ya conoces</div>
         <h2 className="la-display-md">
-          Tu <span className="k">CRM</span> no fue construido para <span className="k">WhatsApp</span>.
+          Tu próxima <span className="k">cotización</span><br />
+          puede irse sin<br />
+          que te <span className="k">enteres</span>.
         </h2>
         <hr className="la-rule" />
         <p className="la-sub" style={{ maxWidth: 620 }}>
-          Tampoco para vender con IA.
+          Si no respondes en 30 minutos, la minera llama a otro.
         </p>
         <p className="la-aside" style={{ marginTop: 14, maxWidth: 600 }}>
-          (Los equipos que más facturan en LATAM viven en chats. Sus herramientas viven en pestañas.)
+          (En el norte, la adjudicación va para quien responde primero y bien.)
         </p>
       </div>
       <div className="la-problem-grid">

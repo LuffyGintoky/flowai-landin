@@ -3,44 +3,44 @@ import { IconWhatsApp, IconSparkle, IconPipeline, IconCheck, IconChart, IconBolt
 const FEATS = [
   {
     icon: <IconWhatsApp style={{ width: 18, height: 18 }} />,
-    title: 'Inbox nativo de WhatsApp',
-    body: 'Multiagente, plantillas oficiales y multimedia. Encuentra cualquier conversación aunque no recuerdes las palabras exactas.',
-    chips: ['WhatsApp Business API', 'Multiagente', 'Plantillas oficiales'],
+    title: 'Inbox de solicitudes mineras',
+    body: 'Todas las solicitudes de faena en un solo lugar. Responde aunque estés fuera de la oficina, sin perder el hilo de ninguna cotización activa.',
+    chips: ['WhatsApp Business API', 'Multiagente', 'Historial completo'],
     gold: false,
   },
   {
     icon: <IconSparkle style={{ width: 18, height: 18 }} />,
     title: 'IA con razonamiento auditable',
-    body: 'Cada respuesta cita su fuente, muestra confianza y permite ver el razonamiento. Nada de cajas negras.',
-    chips: ['Confianza por respuesta', 'Citas y fuentes', 'Modelos best-in-class'],
+    body: 'Cada cotización generada cita la tarifa usada, el plazo aplicado y las condiciones incluidas. Nada sale sin que puedas verificar.',
+    chips: ['Fuente por respuesta', 'Trazabilidad completa', 'Modelos best-in-class'],
     gold: true,
   },
   {
     icon: <IconPipeline style={{ width: 18, height: 18 }} />,
-    title: 'Pipeline en tiempo real',
-    body: 'Cada chat se clasifica por intención y etapa de funnel automáticamente. Lo caliente sube.',
-    chips: ['Detección de intención', 'Funnel auto', 'Próxima acción IA'],
+    title: 'Cotizaciones activas en tiempo real',
+    body: 'Cada solicitud se clasifica por urgencia y estado automáticamente. Sabes qué necesita respuesta ahora y qué puede esperar.',
+    chips: ['Urgencia detectada', 'Estado de cotización', 'Próxima acción IA'],
     gold: false,
   },
   {
     icon: <IconCheck style={{ width: 18, height: 18 }} />,
-    title: 'Approval workflow',
-    body: 'Aprobar, editar o rechazar con teclado. Atajos como Linear. Cierra el doble en la mitad de tiempo.',
-    chips: ['⌘↵ Aprobar', 'Edición rápida', 'Auditoría'],
+    title: 'Aprobación de cotizaciones técnicas',
+    body: 'Revisas, ajustas y apruebas cada cotización antes de que salga. Con atajos de teclado para no perder tiempo en lo que ya está bien.',
+    chips: ['⌘↵ Aprobar', 'Edición rápida', 'Trazabilidad'],
     gold: false,
   },
   {
     icon: <IconChart style={{ width: 18, height: 18 }} />,
     title: 'Analytics que importan',
-    body: 'SLA, tasa de aprobación IA, conversión por intención y agente. Sin dashboards de relleno.',
-    chips: ['SLA en vivo', 'Conversión por agente', 'Cohortes'],
+    body: 'Tiempo de respuesta por cliente, cotizaciones enviadas y tasa de adjudicación por tipo de servicio. Sin métricas de relleno.',
+    chips: ['Tiempo de respuesta', 'Tasa de adjudicación', 'Por cliente'],
     gold: false,
   },
   {
     icon: <IconBolt style={{ width: 18, height: 18 }} />,
-    title: 'Integraciones que ya tienes',
-    body: 'Shopify, HubSpot, Zapier, Stripe, Calendly. Conéctalo a cualquier herramienta con un clic.',
-    chips: ['Shopify', 'HubSpot', 'Stripe', '+ más'],
+    title: 'Integraciones que ya usas',
+    body: 'Conecta con tu sistema de facturación o ERP, Zapier, Stripe y Calendly. Si ya tienes una herramienta, la integramos.',
+    chips: ['ERP / Facturación', 'Zapier', 'Stripe', '+ más'],
     gold: false,
   },
 ];
@@ -51,14 +51,16 @@ export function Features() {
       <div className="la-section-head center" style={{ textAlign: 'center' }}>
         <div className="la-section-eyebrow" style={{ justifyContent: 'center' }}>Producto</div>
         <h2 className="la-display-md">
-          Todo lo que tu equipo necesita para <span className="k">vender en WhatsApp</span>.
+          Todo lo que necesitas para<br />
+          <span className="k">cotizar en WhatsApp</span> como un profesional.
         </h2>
         <hr className="la-rule center" />
         <p className="la-sub" style={{ margin: '0 auto', maxWidth: 600 }}>
-          Cero fricción. Cada pantalla resuelve una decisión real del día a día.
+          Cero fricción. Cada pantalla resuelve<br />
+          una decisión real del día a día.
         </p>
         <p className="la-aside" style={{ marginTop: 14 }}>
-          (Diseñado con equipos comerciales, no con consultores.)
+          (Diseñado con proveedores mineros reales, no con consultores.)
         </p>
       </div>
       <div className="la-feat-grid">
